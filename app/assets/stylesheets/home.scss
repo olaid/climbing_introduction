@@ -1,0 +1,32 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+html{
+  height: 100%;
+  body{
+    height: calc(100% + 2px);
+    background-size:cover;
+    background-position: right bottom;
+    overscroll-behavior: none;
+    animation: fadeIn 2s ease 0s 1 normal;
+  }
+  body.sport{
+    background-image: url(top_public.jpg);
+  }
+  body.bouldering{
+    background-image: url(bouldering.jpg);
+  }
+  body.leadclimb{
+    background-image: url(lead.jpg);
+  }
+  body.speed{
+    background-image: url(speed.jpg);
+  }
+  body.scrollhidden{
+   overflow: hidden;
+  }
+}
+
+img.title_img{
+  height:8em;
+}
+
